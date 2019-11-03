@@ -1,4 +1,5 @@
 # Write your #display_rainbow method here
 def display_rainbow(colors)
-  puts colors[0]
+  letters = ["R: ", "O: ", "Y: ", "G: ", "B: ", "I: ", "V: "]
+  puts "#{letters[0]} #{colors}"
 end
